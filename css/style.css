@@ -2,8 +2,133 @@
 	margin: 0;
 	padding: 0;
 	border: none;
+	outline: none;
+	font-size: 100%;
+	font-weight: 700;
+	box-sizing: border-box;
+	font-family: sans-serif;
 }
 ul,li{
 	list-style: none;
 }
-a{text-decoration: none;}
+a{
+	text-decoration: none;
+}
+
+
+/*****************************************************/
+/*===============| HEADER - CABECALHO |===============*/
+/*****************************************************/
+
+.cabecalho{
+	width: 100%;
+	display: flex;
+	padding: 0 100px;
+	align-items: center;
+	background-color: #333;
+	justify-content: space-between;
+}
+.cabecalho .logo{
+	color: #fff;
+	padding: 10px;
+	font-size: 2em;
+	cursor: pointer;
+}
+.cabecalho>nav{
+	display: flex;
+}
+.menu a{
+	color: #fff;
+	padding: 20px 10px;
+	text-transform: uppercase;
+}
+nav>li>a:hover{
+	color: #fff;
+	background-color: #3479ba;
+}
+
+/*****************************************************/
+/*===============| DIV - BANNER |===============*/
+/*****************************************************/
+
+.banner{
+	width: 100%;
+	display: flex;
+	padding: 0 100px;
+	background-color: #3479ba;
+	justify-content: space-between;
+}
+.banner .title{
+	width: 50%;
+	flex-grow: 30%;
+	margin-bottom: 2%;
+}
+.title h2{
+	color: #fff;
+	font-size: 3em;
+	margin-top: 50px;
+}
+.title p{
+	color: #fff;
+	font-size: 1.5em;
+
+}
+.banner button{
+	cursor: pointer;
+	margin-top: 10px;
+	padding: 15px 50px;
+	border-radius: 4px;
+	background-color: #ffc001;
+}
+.banner img{
+
+}
+
+
+/*****************************************************/
+/*===============| MAIN - PRINCIPAL |===============*/
+/*****************************************************/
+
+.principal{
+	width: 100%;
+	padding: 10px 20px;
+	text-align: center;
+}
+.principal h3{
+	margin: 50px;
+	font-size: 1.5em;
+}
+.principal .img{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.img img{
+	margin-right: 20px;
+}
+.img img:last-child{
+	margin-right: 0;	
+}
+
+
+
+/*****************************************************/
+/*===============| FOOTER - RODAPE |===============*/
+/*****************************************************/
+.rodape{
+	color: #fff;
+	width: 100%;
+	padding: 1%;
+	text-align: center;
+	background-color: #3479ba;
+}
+.rodape p{
+	color: #fff;
+}
+
+
+/*****************************************************/
+/*****************************************************/
+/*****************************************************/
+/*****************************************************/
