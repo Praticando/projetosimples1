@@ -1,0 +1,9 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+ul,li{
+	list-style: none;
+}
+a{text-decoration: none;}
