@@ -14,121 +14,111 @@ ul,li{
 a{
 	text-decoration: none;
 }
+/*
 
+
+
+background-color: #3479ba;
+
+*/
 
 /*****************************************************/
-/*===============| HEADER - CABECALHO |===============*/
+/*===============| HEADER |===============*/
 /*****************************************************/
-
-.cabecalho{
+.header{
 	width: 100%;
-	display: flex;
-	padding: 0 100px;
-	align-items: center;
 	background-color: #333;
+}
+.container{
+	display: flex;
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	align-items: center;
 	justify-content: space-between;
 }
-.cabecalho .logo{
+.container .logo{
 	color: #fff;
-	padding: 10px;
 	font-size: 2em;
-	cursor: pointer;
 }
-.cabecalho>nav{
+.menu{
 	display: flex;
 }
 .menu a{
 	color: #fff;
+	font: 1.5em;
 	padding: 20px 10px;
+	display: inline-block;
 	text-transform: uppercase;
 }
-nav>li>a:hover{
-	color: #fff;
+.menu a:hover{
 	background-color: #3479ba;
 }
-
 /*****************************************************/
-/*===============| DIV - BANNER |===============*/
+/*===============| BANNER |===============*/
 /*****************************************************/
-
 .banner{
 	width: 100%;
-	display: flex;
-	padding: 0 100px;
 	background-color: #3479ba;
-	justify-content: space-between;
-}
-.banner .title{
-	width: 50%;
-	flex-grow: 30%;
-	margin-bottom: 2%;
 }
 .title h2{
 	color: #fff;
 	font-size: 3em;
-	margin-top: 50px;
 }
 .title p{
 	color: #fff;
+	margin: 10px 0; 
 	font-size: 1.5em;
-
 }
-.banner button{
+.title button{
 	cursor: pointer;
-	margin-top: 10px;
-	padding: 15px 50px;
+	padding: 15px 30px;
 	border-radius: 4px;
 	background-color: #ffc001;
 }
-.banner img{
-
-}
-
 
 /*****************************************************/
-/*===============| MAIN - PRINCIPAL |===============*/
+/*===============| MAIN |===============*/
 /*****************************************************/
-
-.principal{
-	width: 100%;
-	padding: 10px 20px;
-	text-align: center;
+.container2{
+	display: flex;
+	margin: 0 auto;
+	padding: 30px 0;
+	max-width: 1000px;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+	justify-content: space-between;
 }
-.principal h3{
-	margin: 50px;
+.container2 h3{
+	margin: 40px 0; 
 	font-size: 1.5em;
 }
-.principal .img{
-	width: 100%;
+.container2 img{
+	padding: 5px;
+}
+.img{
 	display: flex;
+	margin: 0 auto;
+	flex-wrap: wrap;
 	align-items: center;
+	align-content: center;
 	justify-content: center;
 }
-.img img{
-	margin-right: 20px;
-}
-.img img:last-child{
-	margin-right: 0;	
-}
-
-
-
 /*****************************************************/
-/*===============| FOOTER - RODAPE |===============*/
+/*===============| FOOTER |===============*/
 /*****************************************************/
-.rodape{
+.footer{
 	color: #fff;
-	width: 100%;
-	padding: 1%;
+	padding: 10px;
 	text-align: center;
 	background-color: #3479ba;
 }
-.rodape p{
-	color: #fff;
+@media (max-width: 720px){
+	.container, .menu{
+		flex-wrap: wrap;
+	}
+	.banner{
+		padding: 0 10px;
+	}
 }
-
-
-/*****************************************************/
-/*****************************************************/
-/*****************************************************/
-/*****************************************************/
