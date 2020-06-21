@@ -80,6 +80,9 @@ background-color: #3479ba;
 /*****************************************************/
 /*===============| MAIN |===============*/
 /*****************************************************/
+.banner{
+	padding: 0 10px;
+}
 .container2{
 	display: flex;
 	margin: 0 auto;
@@ -117,8 +120,5 @@ background-color: #3479ba;
 @media (max-width: 720px){
 	.container, .menu{
 		flex-wrap: wrap;
-	}
-	.banner{
-		padding: 0 10px;
 	}
 }
