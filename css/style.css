@@ -110,6 +110,9 @@ a{
 	background-color: #3479ba;
 }
 @media (max-width: 720px){
+	.logo{
+		padding: 10px;
+	}
 	.container, .menu{
 		flex-wrap: wrap;
 	}
