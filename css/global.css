@@ -1,0 +1,35 @@
+/* RESET */
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	font-size: 100%;
+	font-weight: 700;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+ul,li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container {
+	display: flex;
+	margin: 0 auto;
+	max-width: 1000px;
+	justify-content: space-between;
+}
+
+
+/****** VARIABLES ******************/
+:root {
+    --header-color: #333;
+    --font-color: #fff;
+    --banner-color: #3479ba;
+    --button-color: #ffc001;
+}
