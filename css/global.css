@@ -21,7 +21,8 @@ a{
 .container {
 	display: flex;
 	margin: 0 auto;
-	max-width: 1000px;
+	max-width: 960px;
+	align-items: center;
 	justify-content: space-between;
 }
 
